@@ -1,2 +1,1 @@
-// This is an empty test file for Cypress
-
+// E2E test file for purchase flow
