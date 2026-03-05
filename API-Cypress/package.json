@@ -1,1 +1,12 @@
-{"name": "api-cypress-tests", "version": "1.0.0", "devDependencies": {"cypress": "^13.0.0"}}
+{
+  "name": "tcs-e2e-cypress",
+  "version": "1.0.0",
+  "description": "Ejercicio 1 - Reto Técnico TCS - E2E con Cypress",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.0"
+  }
+}
