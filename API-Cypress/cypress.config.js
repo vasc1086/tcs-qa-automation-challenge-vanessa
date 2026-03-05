@@ -1,1 +1,12 @@
-const { defineConfig } = require('cypress'); module.exports = defineConfig({e2e: {baseUrl: 'http://localhost:3000/api'}});
+const { defineConfig } = require("cypress");
+
+module.exports = defineConfig({
+  e2e: {
+    baseUrl: "https://www.demoblaze.com",
+    setupNodeEvents(on, config) {
+      // configurar eventos si se necesita
+    },
+  },
+  video: false,
+  reporter: "spec"
+});
